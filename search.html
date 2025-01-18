@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Search And Replace</title>
+</head>
+<body>
+<h1>Javascript String Methods</h1>
+<p>Search a string for "doing", display the position of the match and replace the word "how are" with "how are you" and
+display.</p>
+<p id="search"></p>
+<p id="replace"></p>
+<p id="string"></p>
+<script>
+var str = "Hello How Are Doing For The Day";
+var search = str.search("Doing");
+var txt = str.replace("How Are" , "How Are You");
+var x = 70;
+var y = 90;
+document.getElementById("search").innerHTML = search;
+document.getElementById("replace").innerHTML = txt;
+document.getElementById("string").innerHTML = String(x) + String(y);
+</script>
+</body>
+</html>
